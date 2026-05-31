@@ -58,7 +58,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ## Repository Tree
 
 ```text
-classRehabFinal/
+recoverAI-telerehab/
 ├── artifacts/
 │   ├── artifacts_rehab24_fullreps_F32/
 │   ├── conditioned_tcn_Final/
