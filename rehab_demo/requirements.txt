@@ -1,0 +1,32 @@
+# Requirements for the TeleRehab pipeline (Python 3.9).
+
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.3.3
+scikit-learn==1.6.1
+matplotlib==3.9.4
+opencv-python==4.13.0.92
+mediapipe==0.10.14
+imageio==2.37.2
+av==15.1.0
+
+# PyTorch (GPU build used in development environment)
+# If you don't need GPU or have a different CUDA, replace with a CPU wheel
+# or the correct +cuXXX tag for your CUDA version.
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+torchaudio==2.8.0+cu128
+
+fastapi==0.128.8
+uvicorn==0.39.0
+python-multipart==0.0.20
+absl-py==2.1.0
+pydantic==2.13.4
+typing-extensions==4.15.0
+httpx==0.28.1
+tqdm==4.67.3
+
+# Notebook / development tooling used in the repo
+ipykernel==6.31.0
+jupyter-client==8.6.3
+jupyter-core==5.8.1
